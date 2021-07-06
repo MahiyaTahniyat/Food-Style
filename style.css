@@ -1,0 +1,100 @@
+body{
+    font-family: cursive;
+    margin: 0;
+}
+.a{
+    color: orangered;
+}
+
+.Web
+{
+    color: mediumturquoise;
+}
+.design{
+    color: red;
+}
+.flexible-container{
+    display: flex;
+    margin-bottom:  200px;
+}
+.half-width{
+    width: 50%;
+    padding: 5%;
+    
+}
+.b{
+    text-align: justify;
+}
+.half-width img{
+    width: 100%;
+}
+.link 
+{
+   text-decoration: none;
+   background-image: linear-gradient(rgba(255, 0, 128, 0.575),rgb(255, 113, 137));
+   padding: 10px 40px;
+   border-radius:20px;
+   color: seashell;
+   font-weight: 700;
+   
+}
+.banner
+{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+.big
+{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.experience-item{
+    width: 40rem;
+    height: 30rem;
+    margin:2rem;
+    padding: 1rem;
+    box-shadow: 5px 5px 20px gray;
+    border: 5px solid;
+    border-color: rgb(156, 236, 8) ;
+    text-align: center;
+    img{
+        height: 50%;
+        width:100%;
+        object-fit:cover;
+    }
+    
+}
+.gap{
+    padding-left: 10px;
+    text-align: center;
+    font-size:40px  ;
+}
+.align
+{
+    text-align: justify;
+    padding-right: 20px;
+}
+.experience{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position:left;
+
+}
+#web{
+    border-image: linear-gradient(#ffc400, #ff5100) 10;
+}
+#dev{
+    border-image: linear-gradient(#a200ff, #1100ff) 10;  
+}
+#port{
+    border-image: linear-gradient(#0b4427, #11bd4a) 10;   ;
+}
+.c{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.experience-item img{
+    width: 200px;
+    height: 150px;
+}
