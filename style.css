@@ -1,29 +1,22 @@
 body{
     font-family: cursive;
     margin: 0;
-}
-.a{
-    color: orangered;
-}
-
-.Web
-{
-    color: mediumturquoise;
-}
-.design{
-    color: red;
+    background-color: rgb(255, 221, 188);
 }
 .flexible-container{
     display: flex;
-    margin-bottom:  200px;
+    margin-bottom:20px;
 }
 .half-width{
     width: 50%;
     padding: 5%;
-    
 }
 .b{
-    text-align: justify;
+    text-align: left;
+    font-size: 25px;
+}
+.a{
+    color: firebrick;
 }
 .half-width img{
     width: 100%;
@@ -36,65 +29,91 @@ body{
    border-radius:20px;
    color: seashell;
    font-weight: 700;
-   
 }
-.banner
-{
-    background-image: url(images/top-banner.png);
-    background-repeat: no-repeat;
+.link:hover{
+    letter-spacing: 4px;
+    background: #fff;
+    color: #111;
+    transition: 0.5s;
 }
-.big
-{
-    background-image: url(images/dream-bg.png);
-    background-repeat: no-repeat;
-    background-position: right;
-}
+
 .experience-item{
-    width: 40rem;
-    height: 30rem;
-    margin:2rem;
-    padding: 1rem;
-    box-shadow: 5px 5px 20px gray;
+    width: 30rem;
+    height:22rem;
+    margin:0.5rem;
+    padding: 2rem;
+    box-shadow: 4px 4px 15px gray;
     border: 5px solid;
-    border-color: rgb(156, 236, 8) ;
+    border-radius:5rem;
+    background-image: linear-gradient(rgba(255, 187, 0, 0.575),rgb(255, 0, 43));
     text-align: center;
+    flex: 1 1 30rem;
+    position: relative;
     img{
-        height: 50%;
+        height: 25rem;
         width:100%;
         object-fit:cover;
     }
     
 }
 .gap{
-    padding-left: 10px;
     text-align: center;
-    font-size:40px  ;
+    font-size:20px;
+    background-color: rgb(255, 43, 43);
+    color: white;
+    border-radius:20px;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: inline-block;
+    margin-left:22em;
 }
-.align
-{
-    text-align: justify;
-    padding-right: 20px;
-}
-.experience{
-    background-image: url(images/exp-bg.png);
-    background-repeat: no-repeat;
-    background-position:left;
-
-}
-#web{
-    border-image: linear-gradient(#ffc400, #ff5100) 10;
-}
-#dev{
-    border-image: linear-gradient(#a200ff, #1100ff) 10;  
-}
-#port{
-    border-image: linear-gradient(#0b4427, #11bd4a) 10;   ;
+.p{
+    text-align: center;
+    color: blue;
+    font-size: 20px;
 }
 .c{
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
+    font-size: 40px;
+}
+.g{
+    font-size: 25px;
 }
 .experience-item img{
-    width: 200px;
+    width: 240px;
     height: 150px;
+}
+.soup{
+    font-size: 20px;
+}
+.none{
+    margin-bottom: 10px;
+    text-align: justify;
+}
+.f{
+    margin-top: 20px;
+    border-radius: 50px;
+    color: darkorange;
+}
+.f:hover{
+    letter-spacing: 4px;
+    background: rgb(76, 216, 193);
+    color: rgb(29, 13, 255);
+    transition: 0.5s;  
+}
+.s{
+    font-size: 40px;
+}
+.food{
+    color: crimson;
+}
+footer p{
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    padding: 10px 40px;
+    font-weight: 700;
+}
+.com{
+    background-color: black;
+    font-size: 10px;
 }
